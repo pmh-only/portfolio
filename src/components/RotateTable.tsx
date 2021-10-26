@@ -19,7 +19,7 @@ export default function RotateTable () {
   return (
     <div>
       {inputRanges.map((_, i) => (
-        <RotateAble key={i} inputRange={inputRanges[i]} className={`cursor-default select-none ${!(i % 2) ? 'text-white' : 'text-black'} md:${i % 2 ? 'text-white' : 'text-black'}`}>
+        <RotateAble key={i} inputRange={inputRanges[i]} className={`cursor-default select-none ${!(i % 2) ? 'text-white md:text-black' : 'text-black md:text-white'}`}>
           {t(`ROTATE_TABLE.TOP_LABEL.${i}`).split('/')[0]}<br />
           <ReactTypingEffect
             eraseSpeed={100}
