@@ -27,6 +27,8 @@ jobs:
 
       - name: Apply Changes
         run: |
+          git remote update
+          git fetch
           git checkout origin/build
           cp build/* . -r
 
