@@ -27,7 +27,7 @@ jobs:
 
       - name: Apply Changes
         run: |
-          git checkout build
+          git checkout origin/build
           cp build/* . -r
 
       - name: Commit Changes
