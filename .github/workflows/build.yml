@@ -34,6 +34,7 @@ jobs:
 
       - name: Commit Changes
         run: |
+          git add .
           git config --local user.email "hayih87429@dxecig.com"
           git config --local user.name "pmh-auto"
           git commit -am "build: $(git log --format="%H" -n 1)"
