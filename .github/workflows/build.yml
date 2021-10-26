@@ -1,0 +1,43 @@
+name: Build README
+
+on:
+  push:
+    branch:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Sources
+        uses: actions/checkout@v2
+
+      - name: Setup Dependancies
+        uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: install
+
+      - name: Run Build
+        uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: build
+
+      - name: Apply Changes
+        run: |
+          git checkout build
+          cp build/* . -r
+
+      - name: Commit Changes
+        run: |
+          git config --local user.email "hayih87429@dxecig.com"
+          git config --local user.name "pmh-auto"
+          git commit -am "build: $(git log --format="%H" -n 1)"
+
+      - name: Push Commit
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: build
