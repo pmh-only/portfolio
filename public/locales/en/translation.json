@@ -1,0 +1,99 @@
+{
+  "HELLO_SECTION": {
+    "TITLE": "Hi there 👋",
+    "BIO": [
+      "I'm Park Min Hyeok",
+      "Student Developer."
+    ],
+    "BIRTH": "01/30/05",
+    "LOCATE": "South Korea",
+    "LIKE_CATS": "like Cats",
+    "SCROLL_DOWN": "Scroll down to more info"
+  },
+  "CERT_SECTION": {
+    "CERT_CARD": {
+      "TITLE": "certificates.",
+      "ITEMS": [
+        "Linux Master 2 (KAIT)",
+        "Network Manager 2 (ICQA)",
+        "Information Processing Craftsman (HRDK)"
+      ]
+    },
+    "AWARD_CARD": {
+      "TITLE": "awards.",
+      "ITEMS": [
+        "World Skills Korea - excellence prize (4th)",
+        "World Skills Gyeongbuk - gold medal (1st)",
+        "2021 Gyeongbuk Software Hackathon - grand prize (1st)",
+        "2020 Gyeongbuk Software Hackathon - excellence prize (2th)",
+        "2021 GBSWHS Hackathon - grand prize (1st)"
+      ]
+    }
+  },
+  "SKILL_SECTION": {
+    "LANGUAGE_CARD": {
+      "TITLE": "languages.",
+      "ITEMS": [
+        "TypeScript",
+        "Golang",
+        "Dart",
+        "Java"
+      ]
+    },
+    "TITLES_CARD": {
+      "TITLE": "titles.",
+      "ITEMS": [
+        "Backend Developer",
+        "Server Engineer",
+        "ChatBot Developer",
+        "Cloud Architect"
+      ]
+    },
+    "SKILLS_CARD": {
+      "TITLE": "skills.",
+      "ITEMS": [
+        "AWS Architect (1 year exp)",
+        "Go fiber & Go gin (2 years exp)",
+        "React.js & Next.js (2 years exp)",
+        "Node.js & Express.js (3 years exp)",
+        "Kakao chatbot & Discord.js (4 years exp)",
+        "html, css & bootstrap, tailwind (4 years exp)"
+      ]
+    }
+  },
+  "STATS_SECTION": {
+    "HISTORY_CARD": {
+      "TITLE": "history.",
+      "ITEMS": [
+        "leader of Lofi with Discord team",
+        "joined Best of the Best 10th",
+        "2020 Student president of Janggok mid.",
+        "joined pluxcon team",
+        "leader of 2020 SWAG team"
+      ]
+    },
+    "TODAY_WORKS": "Today works."
+  },
+  "EXTRA": {
+    "LOADING": "Loading...",
+    "ERROR": "Error"
+  },
+  "LANGUAGE_BUTTON": {
+    "LABEL": "이동",
+    "DESCRIPTION": "🇰🇷 한국어 페이지를 원하시나요?"
+  },
+  "ROTATE_TABLE": {
+    "TOP_LABEL": [
+      "I'm a",
+      "I'm making",
+      "I'm good at",
+      "I luv to"
+    ] ,
+    "BOTTOM_LABEL": [
+      ["high school student.", "just normal korean.", "web developer.", "cloud architect.", "database admin.", "server enginner.", "future dreamer."],
+      ["useful web-apps.", "functional chatbots.", "streaming services.", "utilities for dev.", "tutorial videos for students."],
+      ["cloud computing.", "info processing.", "hackathon.", "finding difficulties.", "troubleshooting."],
+      ["learn new techs.", "teach someone.", "collaborate.", "contribute.", "lead teams."]
+    ]
+  }
+}
