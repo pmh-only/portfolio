@@ -22,7 +22,7 @@ export default function App () {
     if (loading) loading.remove()
 
     window.addEventListener('scroll', () => {
-      if (window.scrollY >= window.innerHeight * 4) {
+      if (window.scrollY >= window.innerHeight * 5) {
         (html.style as any).scrollSnapType = 'none'
       } else (html.style as any).scrollSnapType = 'y mandatory'
     })
@@ -31,7 +31,6 @@ export default function App () {
   return (
     <Suspense fallback="">
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-
         <LanguageBtn />
 
         <RotateTable />

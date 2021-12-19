@@ -1,22 +1,17 @@
 import React from 'react'
 
-import { useTranslation } from 'react-i18next'
-
 interface Props {
   title: string
   subtitle: string
   selected: number
   index: number
   background: string
-  enabled: boolean
   setSelected: (_: number) => void
 }
 
-export default function ProjectCard ({ title, subtitle, selected, index, setSelected, background, enabled }: Props) {
-  const { i18n } = useTranslation()
-
+export default function ProjectCard ({ title, subtitle, selected, index, setSelected, background }: Props) {
   return (
-    <div className="shadow rounded min-w-max xl:min-w-full xl:w-full transform hover:-translate-y-1" onMouseEnter={() => !(i18n.language === 'en-US' && !enabled) && setSelected(index)}>
+    <div className={`shadow flex-1 justify-self-stretch rounded min-w-max transform hover:-translate-y-1 ${selected >= 0 ? 'w-full' : ''}`} onClick={() => setSelected(index)}>
       <div className="h-64 w-full bg-center bg-cover cursor-pointer" style={{ backgroundImage: `url("${background}")` }}>
         <div className="flex flex-col justify-end w-full h-full text-white" style={{ backgroundColor: '#00000055' }}>
           <div className="p-5 transition-all ease-out" style={{ backgroundColor: selected === index ? '#3b82f6' : '#00000033' }}>

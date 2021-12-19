@@ -13,10 +13,10 @@ export default function HalfDivider ({ rclassName, lclassName, children, rbackgr
     <div className="flex">
       <div
         style={{ backgroundImage: `url("${lbackground}")` }}
-        className={`h-screen hidden md:block w-1/2 bg-cover ${lclassName}`}/>
+        className={`h-screen hidden lg:block w-1/2 bg-cover ${lclassName}`}/>
       <div
         style={{ backgroundImage: `url("${rbackground}")` }}
-        className={`w-full md:w-1/2 h-screen flex flex-col justify-center gap-5 items-center bg-cover ${rclassName}`}>
+        className={`w-full lg:w-1/2 h-screen flex flex-col justify-center gap-5 items-center bg-cover ${rclassName}`}>
         {children}
       </div>
     </div>
