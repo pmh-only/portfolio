@@ -106,7 +106,7 @@ export default function ProjectDescripts ({ project }: Props) {
           <div className="p-5 w-full bg-green-100 shadow">
             <p><FontAwesomeIcon icon={faLink} /> <a className="underline hover:text-blue-500" href="https://m.blog.naver.com/2mcool/222017812341">장곡중, 학생 소프트웨어 동아리가 만든 &quot;발열 검사 확인 시스템&quot; 운영</a></p>
             <p><FontAwesomeIcon icon={faLink} /> <a className="underline hover:text-blue-500" href="https://www.yna.co.kr/view/AKR20200528155800053">중학교 동아리 학생들이 발열검사 관리 프로그램 개발</a></p>
-            <p><FontAwesomeIcon icon={faLink} /> <a className="underline hover:text-blue-500" href="http://www.gitnews.net/default/index_view_page.php?part_idx=213&idx=52200">칠곡 장곡중학교, ‘발열 검사 확인 시스템’ 개발한 소프트웨어 동아리 학생들 장학금 수여 </a></p>
+            <p><FontAwesomeIcon icon={faLink} /> <a className="underline hover:text-blue-500" href="http://www.gitnews.net/default/index_view_page.php?part_idx=213&idx=52200">칠곡 장곡중학교, &apos;발열 검사 확인 시스템&apos; 개발한 소프트웨어 동아리 학생들 장학금 수여 </a></p>
           </div>
         </div>
         <div>
@@ -215,7 +215,7 @@ export default function ProjectDescripts ({ project }: Props) {
       </div>
     </div>,
     <div key={11}>
-      <video autoPlay src="https://github.com/GBSWHS/1st-hackathon-todaystudy/raw/main/docs/3%EC%A1%B0-%EB%B0%94%EC%9D%B4%ED%8A%B8-%EC%98%81%EC%83%81%EC%8B%9C%EC%97%B0.mp4" className="overflow-hidden shadow mb-5 w-full" controls />
+      <video muted autoPlay src="https://github.com/GBSWHS/1st-hackathon-todaystudy/raw/main/docs/3%EC%A1%B0-%EB%B0%94%EC%9D%B4%ED%8A%B8-%EC%98%81%EC%83%81%EC%8B%9C%EC%97%B0.mp4" className="overflow-hidden shadow mb-5 w-full" controls />
       <div className="flex mb-4 gap-5 items-start">
         <div>
           <div className="p-5 break-words w-full bg-yellow-100 shadow mb-5">

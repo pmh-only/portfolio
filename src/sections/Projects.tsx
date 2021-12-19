@@ -12,7 +12,7 @@ export default function Projects () {
   const { i18n } = useTranslation()
 
   return (
-    <section style={{ scrollSnapAlign: 'start' }}>
+    <section style={{ scrollSnapAlign: 'start' }} className="pb-64">
       <Container className="p-5">
         <h1 className="text-xl border-b-2 inline-block p-2">Projects. & Collaborations.</h1>
 
