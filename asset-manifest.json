@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.3fd19330.chunk.css",
-    "main.js": "/static/js/main.fc27be2a.chunk.js",
-    "main.js.map": "/static/js/main.fc27be2a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d0605945.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
-    "static/css/2.bd805071.chunk.css": "/static/css/2.bd805071.chunk.css",
-    "static/js/2.368b917c.chunk.js": "/static/js/2.368b917c.chunk.js",
-    "static/js/2.368b917c.chunk.js.map": "/static/js/2.368b917c.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.bd805071.chunk.css.map": "/static/css/2.bd805071.chunk.css.map",
-    "static/css/main.3fd19330.chunk.css.map": "/static/css/main.3fd19330.chunk.css.map",
-    "static/js/2.368b917c.chunk.js.LICENSE.txt": "/static/js/2.368b917c.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/noto-serif-kr-all-400-normal.63dda6ad.woff",
-    "static/media/getFetch.cjs": "/static/media/getFetch.582d29c4.cjs"
+    "main.css": "/portfolio/static/css/main.dcb6e027.chunk.css",
+    "main.js": "/portfolio/static/js/main.f93ed706.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f93ed706.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.a9f76519.js.map",
+    "static/css/2.0394f9de.chunk.css": "/portfolio/static/css/2.0394f9de.chunk.css",
+    "static/js/2.e79548d6.chunk.js": "/portfolio/static/js/2.e79548d6.chunk.js",
+    "static/js/2.e79548d6.chunk.js.map": "/portfolio/static/js/2.e79548d6.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/2.0394f9de.chunk.css.map": "/portfolio/static/css/2.0394f9de.chunk.css.map",
+    "static/css/main.dcb6e027.chunk.css.map": "/portfolio/static/css/main.dcb6e027.chunk.css.map",
+    "static/js/2.e79548d6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e79548d6.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/portfolio/static/media/noto-serif-kr-all-400-normal.63dda6ad.woff",
+    "static/media/getFetch.cjs": "/portfolio/static/media/getFetch.582d29c4.cjs"
   },
   "entrypoints": [
-    "static/js/runtime-main.d0605945.js",
-    "static/css/2.bd805071.chunk.css",
-    "static/js/2.368b917c.chunk.js",
-    "static/css/main.3fd19330.chunk.css",
-    "static/js/main.fc27be2a.chunk.js"
+    "static/js/runtime-main.a9f76519.js",
+    "static/css/2.0394f9de.chunk.css",
+    "static/js/2.e79548d6.chunk.js",
+    "static/css/main.dcb6e027.chunk.css",
+    "static/js/main.f93ed706.chunk.js"
   ]
 }
