@@ -2,14 +2,13 @@ import React from 'react'
 
 import { useTranslation } from 'react-i18next'
 import ScrollSection from '../components/ScrollSection'
-import { faTools } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTools, faCogs, faServer, faRobot } from '@fortawesome/free-solid-svg-icons'
+import { faAws } from '@fortawesome/free-brands-svg-icons'
 
 import GoOriginalIcon from 'react-devicons/go/original'
 import JavaOriginalIcon from 'react-devicons/java/original'
-import DartOriginalIcon from 'react-devicons/dart/original'
 import FlutterOriginalIcon from 'react-devicons/flutter/original'
-import JavascriptOriginalIcon from 'react-devicons/javascript/original'
 import TypescriptOriginalIcon from 'react-devicons/typescript/original'
 
 import HalfDivider from '../components/HalfDivider'
@@ -23,40 +22,45 @@ export default function SkillsSection () {
   return (
     <ScrollSection>
       <HalfDivider lbackground="background2.jpg" lclassName="bg-left">
-        <div className="break-all max-w-lg flex gap-5 items-center">
-          <motion.div className="rounded shadow bg-white p-4" style={{ scale }}>
-            <h2 className="text-lg font-bold border-b-2 pr-10">{t('SKILL_SECTION.LANGUAGE_CARD.TITLE')}</h2>
+        <div className="flex flex-col gap-10 px-5">
+          <motion.div className="p-4 bg-white shadow" style={{ scale }}>
+            <h2 className="pr-10 text-lg font-bold border-b-2">{t('SKILL_SECTION.LANGUAGE_CARD.TITLE')}</h2>
 
-            <ul className="list-disc list-inside mt-3">
-              <li>{t('SKILL_SECTION.LANGUAGE_CARD.ITEMS.0')} <JavascriptOriginalIcon className="inline" /> <TypescriptOriginalIcon className="inline" /></li>
-              <li>{t('SKILL_SECTION.LANGUAGE_CARD.ITEMS.1')} <GoOriginalIcon className="inline" /></li>
-              <li>{t('SKILL_SECTION.LANGUAGE_CARD.ITEMS.2')} <DartOriginalIcon className="inline" /> <FlutterOriginalIcon className="inline" /></li>
-              <li>{t('SKILL_SECTION.LANGUAGE_CARD.ITEMS.3')} <JavaOriginalIcon className="inline"/></li>
-            </ul>
+            <div className="flex justify-between gap-10 text-center mt-7">
+              <div className="flex flex-col items-center"><TypescriptOriginalIcon size="40px" className="inline" />{t('SKILL_SECTION.LANGUAGE_CARD.ITEMS.0')}</div>
+              <div className="flex flex-col items-center"><GoOriginalIcon size="40px" className="inline" />{t('SKILL_SECTION.LANGUAGE_CARD.ITEMS.1')}</div>
+              <div className="flex flex-col items-center"><FlutterOriginalIcon size="40px" className="inline" />{t('SKILL_SECTION.LANGUAGE_CARD.ITEMS.2')}</div>
+              <div className="flex flex-col items-center"><JavaOriginalIcon size="40px" className="inline"/>{t('SKILL_SECTION.LANGUAGE_CARD.ITEMS.3')}</div>
+            </div>
           </motion.div>
-          <motion.div className="rounded shadow bg-white p-4" style={{ scale }}>
-            <h2 className="text-lg font-bold border-b-2 pr-10">{t('SKILL_SECTION.TITLES_CARD.TITLE')}</h2>
 
-            <ul className="list-disc list-inside mt-3">
-              <li>{t('SKILL_SECTION.TITLES_CARD.ITEMS.0')}</li>
-              <li>{t('SKILL_SECTION.TITLES_CARD.ITEMS.1')}</li>
-              <li>{t('SKILL_SECTION.TITLES_CARD.ITEMS.2')}</li>
-              <li>{t('SKILL_SECTION.TITLES_CARD.ITEMS.3')}</li>
+          <motion.div className="p-4 bg-white shadow" style={{ scale }}>
+            <h2 className="pr-10 text-lg font-bold border-b-2">{t('SKILL_SECTION.TITLES_CARD.TITLE')}</h2>
+
+            <div className="flex gap-5 text-center justify-evenly mt-7">
+              <div className="flex flex-col items-center"><FontAwesomeIcon size="2x" icon={faCogs}/>{t('SKILL_SECTION.TITLES_CARD.ITEMS.0')}</div>
+              <div className="flex flex-col items-center"><FontAwesomeIcon size="2x" icon={faServer}/>{t('SKILL_SECTION.TITLES_CARD.ITEMS.1')}</div>
+            </div>
+
+            <div className="flex gap-5 text-center justify-evenly mt-7">
+              <div className="flex flex-col items-center"><FontAwesomeIcon size="2x" icon={faRobot}/>{t('SKILL_SECTION.TITLES_CARD.ITEMS.2')}</div>
+              <div className="flex flex-col items-center"><FontAwesomeIcon size="2x" icon={faAws}/>{t('SKILL_SECTION.TITLES_CARD.ITEMS.3')}</div>
+            </div>
+          </motion.div>
+
+          <motion.div className="p-4 bg-white shadow" style={{ scale }}>
+            <h2 className="pr-10 text-lg font-bold border-b-2"><FontAwesomeIcon icon={faTools}/> {t('SKILL_SECTION.SKILLS_CARD.TITLE')}</h2>
+
+            <ul className="mt-3 list-disc list-inside">
+              <li>{t('SKILL_SECTION.SKILLS_CARD.ITEMS.0')}</li>
+              <li>{t('SKILL_SECTION.SKILLS_CARD.ITEMS.1')}</li>
+              <li>{t('SKILL_SECTION.SKILLS_CARD.ITEMS.2')}</li>
+              <li>{t('SKILL_SECTION.SKILLS_CARD.ITEMS.3')}</li>
+              <li>{t('SKILL_SECTION.SKILLS_CARD.ITEMS.4')}</li>
+              <li>{t('SKILL_SECTION.SKILLS_CARD.ITEMS.5')}</li>
             </ul>
           </motion.div>
         </div>
-        <motion.div className="rounded shadow bg-white p-4" style={{ scale }}>
-          <h2 className="text-lg font-bold border-b-2 pr-10"><FontAwesomeIcon icon={faTools}/> {t('SKILL_SECTION.SKILLS_CARD.TITLE')}</h2>
-
-          <ul className="list-disc list-inside mt-3">
-            <li>{t('SKILL_SECTION.SKILLS_CARD.ITEMS.0')}</li>
-            <li>{t('SKILL_SECTION.SKILLS_CARD.ITEMS.1')}</li>
-            <li>{t('SKILL_SECTION.SKILLS_CARD.ITEMS.2')}</li>
-            <li>{t('SKILL_SECTION.SKILLS_CARD.ITEMS.3')}</li>
-            <li>{t('SKILL_SECTION.SKILLS_CARD.ITEMS.4')}</li>
-            <li>{t('SKILL_SECTION.SKILLS_CARD.ITEMS.5')}</li>
-          </ul>
-        </motion.div>
       </HalfDivider>
     </ScrollSection>
   )
