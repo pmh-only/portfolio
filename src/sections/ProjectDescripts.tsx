@@ -12,7 +12,7 @@ export default function ProjectDescripts ({ project }: Props) {
     <div key={0}>
       <embed src="https://chungraon.com" className="w-full shadow h-80"/>
       <div className="lg:flex mt-4 gap-5 items-start">
-        <img src="/projects/cheongraon.gif" className="w-full shadow max-w-md" />
+        <img src="/portfolio/projects/cheongraon.gif" className="w-full shadow max-w-md" />
         <div className="p-5 break-words lg:w-1/2 bg-yellow-100 shadow">
           <h2 className="border-b inline-block text-xl font-bold px-3 mb-3">청라온 CMS</h2>
           <p>유니엄 산하의 청소년 신문사 청라온을 위한 기자&기사 관리 시스템을 개발하였습니다.</p>
@@ -27,7 +27,7 @@ export default function ProjectDescripts ({ project }: Props) {
     </div>,
     <div key={1}>
       <div className="lg:flex mb-4 gap-5 items-start">
-        <img src="/projects/blockchain.gif" className="w-full shadow max-w-md" />
+        <img src="/portfolio/projects/blockchain.gif" className="w-full shadow max-w-md" />
         <div className="p-5 break-words lg:w-1/2 bg-yellow-100 shadow">
           <h2 className="border-b inline-block text-xl font-bold px-3 mb-3">BlobBlocks</h2>
           <p>2진수 바이너리 정보를 안전하고 신용 가능하게 통신 시킬 수 있는 블럭체인 네트워크를 개발하였습니다.</p>
@@ -40,7 +40,7 @@ export default function ProjectDescripts ({ project }: Props) {
     </div>,
     <div key={2}>
       <div className="lg:flex mb-4 gap-5 items-start">
-        <img src="/projects/handyedu.png" className="w-full shadow max-w-md" />
+        <img src="/portfolio/projects/handyedu.png" className="w-full shadow max-w-md" />
         <div className="p-5 break-word lg:w-1/2 bg-yellow-100 shadow">
           <h2 className="border-b inline-block text-xl font-bold px-3 mb-3">HandyEdu</h2>
           <p>지루했던 정보보안 수업을 키보드, 마우스로 움직여보고 연결해보며 배울 수 있도록 설계된 교육 플랫폼입니다.</p>
@@ -52,7 +52,7 @@ export default function ProjectDescripts ({ project }: Props) {
       </div>
     </div>,
     <div key={3}>
-      <img src="/projects/gohttpfs.gif" className="w-full shadow mb-5" />
+      <img src="/portfolio/projects/gohttpfs.gif" className="w-full shadow mb-5" />
       <div className="flex mb-4 gap-5 items-start">
         <div className="p-5 break-words lg:w-1/2 bg-yellow-100 shadow">
           <h2 className="border-b inline-block text-xl font-bold px-3 mb-3">Gohttpfs</h2>
@@ -68,7 +68,7 @@ export default function ProjectDescripts ({ project }: Props) {
     </div>,
     <div key={4}>
       <div className="lg:flex mb-4 gap-5 items-start">
-        <img src="/projects/outgo2.gif" className="shadow mb-5" />
+        <img src="/portfolio/projects/outgo2.gif" className="shadow mb-5" />
         <div>
           <div className="p-5 mb-5 break-words w-full bg-yellow-100 shadow">
             <h2 className="border-b inline-block text-xl font-bold px-3 mb-3">Outgo</h2>
@@ -80,13 +80,13 @@ export default function ProjectDescripts ({ project }: Props) {
             <br />
             <p><FontAwesomeIcon icon={faLink} /> <a className="underline hover:text-blue-500" href="https://github.com/GBSWHS/Jongsimgwan-outgo">https://github.com/GBSWHS/Jongsimgwan-outgo</a></p>
           </div>
-          <img src="/projects/outgo3.png" className="shadow mb-5" />
+          <img src="/portfolio/projects/outgo3.png" className="shadow mb-5" />
         </div>
       </div>
     </div>,
     <div key={5}>
       <div className="lg:flex mb-4 gap-5 items-start">
-        <img src="/projects/scs.gif" className="w-full shadow max-w-md" />
+        <img src="/portfolio/projects/scs.gif" className="w-full shadow max-w-md" />
         <div className="p-5 break-words lg:w-1/2 bg-yellow-100 shadow">
           <h2 className="border-b inline-block text-xl font-bold px-3 mb-3">School Computer Security</h2>
           <p>학급 내 정보화기기 관리 시스템입니다.</p>
@@ -102,7 +102,7 @@ export default function ProjectDescripts ({ project }: Props) {
     <div key={6}>
       <div className="lg:flex mb-4 gap-5 items-start">
         <div className="w-full">
-          <img src="/projects/covidcheck.gif" className="w-full shadow mb-5" />
+          <img src="/portfolio/projects/covidcheck.gif" className="w-full shadow mb-5" />
           <div className="p-5 w-full bg-green-100 shadow">
             <p><FontAwesomeIcon icon={faLink} /> <a className="underline hover:text-blue-500" href="https://m.blog.naver.com/2mcool/222017812341">장곡중, 학생 소프트웨어 동아리가 만든 &quot;발열 검사 확인 시스템&quot; 운영</a></p>
             <p><FontAwesomeIcon icon={faLink} /> <a className="underline hover:text-blue-500" href="https://www.yna.co.kr/view/AKR20200528155800053">중학교 동아리 학생들이 발열검사 관리 프로그램 개발</a></p>
@@ -145,16 +145,16 @@ export default function ProjectDescripts ({ project }: Props) {
               <p><FontAwesomeIcon icon={faLink} /> <a className="underline hover:text-blue-500" href="https://github.com/lofi-with-discord/LofiGirl3-playserver">https://github.com/lofi-with-discord/LofiGirl3-playserver</a></p>
             </div>
           </div>
-          <img src="/projects/lofigirl3.gif" className="w-full shadow mb-5" />
+          <img src="/portfolio/projects/lofigirl3.gif" className="w-full shadow mb-5" />
         </div>
         <div>
-          <img src="/projects/lofigirl.gif" className="w-full shadow mb-5" />
-          <img src="/projects/lofigirl2.gif" className="w-full shadow mb-5" />
+          <img src="/portfolio/projects/lofigirl.gif" className="w-full shadow mb-5" />
+          <img src="/portfolio/projects/lofigirl2.gif" className="w-full shadow mb-5" />
         </div>
       </div>
     </div>,
     <div key={8}>
-      <video src="/projects/coffeemachine.mp4" autoPlay controls className="w-full shadow mb-5" />
+      <video src="/portfolio/projects/coffeemachine.mp4" autoPlay controls className="w-full shadow mb-5" />
       <div className="flex mb-4 gap-5 items-start">
         <div>
           <div className="p-5 break-words w-full bg-yellow-100 shadow mb-5">
@@ -175,7 +175,7 @@ export default function ProjectDescripts ({ project }: Props) {
     </div>,
     <div key={9}>
       <div className="lg:flex mb-4 gap-5 items-start">
-        <img src="/projects/unityLearn.gif" className="w-full shadow mb-5" />
+        <img src="/portfolio/projects/unityLearn.gif" className="w-full shadow mb-5" />
         <div>
           <div className="p-5 break-words w-full bg-yellow-100 shadow mb-5">
             <h2 className="border-b inline-block text-xl font-bold px-3 mb-3">Cube jump</h2>
@@ -211,7 +211,7 @@ export default function ProjectDescripts ({ project }: Props) {
             </div>
           </div>
         </div>
-        <img src="/projects/oauth2-3.png" className="shadow w-full p-5" />
+        <img src="/portfolio/projects/oauth2-3.png" className="shadow w-full p-5" />
       </div>
     </div>,
     <div key={11}>
@@ -232,7 +232,7 @@ export default function ProjectDescripts ({ project }: Props) {
       </div>
     </div>,
     <div key={12}>
-      <img src="/projects/dimigo-excel.gif" className="overflow-hidden shadow mb-5 w-full" />
+      <img src="/portfolio/projects/dimigo-excel.gif" className="overflow-hidden shadow mb-5 w-full" />
       <div className="flex mb-4 gap-5 items-start">
         <div>
           <div className="p-5 break-words w-full bg-yellow-100 shadow mb-5">

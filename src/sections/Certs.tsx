@@ -14,7 +14,7 @@ export default function CertsSection () {
 
   return (
     <ScrollSection>
-      <HalfDivider rbackground="/background3.jpg" rclassName="bg-right">
+      <HalfDivider rbackground="/portfolio/background3.jpg" rclassName="bg-right">
         <div className="h-screen flex flex-col gap-5 justify-center p-5">
           <motion.div className="rounded shadow bg-white p-4" style={{ scale }}>
             <h2 className="text-lg font-bold border-b-2 pr-10"><FontAwesomeIcon icon={faUserCheck}/> {t('CERT_SECTION.CERT_CARD.TITLE')}</h2>

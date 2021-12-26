@@ -16,7 +16,7 @@ export default function StatsSection () {
 
   return (
     <ScrollSection>
-      <HalfDivider lbackground="/background3.gif" lclassName="bg-right">
+      <HalfDivider lbackground="/portfolio/background3.gif" lclassName="bg-right">
         <div className="flex flex-col gap-5 justify-center">
           <motion.div className="rounded shadow bg-white p-4" style={{ scale }}>
             <h2 className="text-lg font-bold border-b-2 pr-10"><FontAwesomeIcon icon={faUsers}/> {t('STATS_SECTION.HISTORY_CARD.TITLE')}</h2>

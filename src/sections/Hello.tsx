@@ -20,7 +20,7 @@ export default function HelloSection () {
 
   return (
     <ScrollSection>
-      <HalfDivider rbackground="/background.jpg" rclassName="bg-right">
+      <HalfDivider rbackground="/portfolio/background.jpg" rclassName="bg-right">
         <div className="w-full flex flex-col items-center bg-fixed">
           <div className="h-screen flex flex-col justify-center">
             <div className="bg-transparent sm:bg-white gap-10 sm:gap-0 p-5 pr-10 rounded sm:shadow break-all max-w-lg flex flex-col sm:flex-row text-white sm:text-black items-center justify-center">
@@ -29,7 +29,7 @@ export default function HelloSection () {
                   whileHover={{ scale: 1.5 }}
                   whileTap={{ scale: 0.9 }}
                   style={{ scale }}
-                  src="/profile.jpg"
+                  src="/portfolio/profile.jpg"
                   onClick={onClick}
                   className="rounded-full shadow-lg box-content border-2 border-purple-300"
                   width="200" height="200" />

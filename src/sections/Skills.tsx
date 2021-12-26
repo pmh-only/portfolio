@@ -21,7 +21,7 @@ export default function SkillsSection () {
 
   return (
     <ScrollSection>
-      <HalfDivider lbackground="background2.jpg" lclassName="bg-left">
+      <HalfDivider lbackground="/portfolio/background2.jpg" lclassName="bg-left">
         <div className="flex flex-col gap-10 px-5">
           <motion.div className="p-4 bg-white shadow" style={{ scale }}>
             <h2 className="pr-10 text-lg font-bold border-b-2">{t('SKILL_SECTION.LANGUAGE_CARD.TITLE')}</h2>
