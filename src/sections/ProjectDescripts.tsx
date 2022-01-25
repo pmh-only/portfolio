@@ -120,7 +120,7 @@ export default function ProjectDescripts ({ project }: Props) {
             <br />
             <p>타 학교에서도 도입을 검토하거나 방송 취재 요청 등 많은 관심이 있었습니다.</p>
             <br />
-            <p><FontAwesomeIcon icon={faLink} /> <a className="underline hover:text-blue-500" href="https://github.com/SoftWareAndGuider/SchoolComputerSecurity">https://github.com/SoftWareAndGuider/SchoolComputerSecurity</a></p>
+            <p><FontAwesomeIcon icon={faLink} /> <a className="underline hover:text-blue-500" href="https://github.com/SoftWareAndGuider/Covid-Check">https://github.com/SoftWareAndGuider/Covid-Check</a></p>
           </div>
           <embed src='https://streaming.hcn.co.kr/vod_fiveplayer.php?serial=17904' className="w-full mt-5 h-64"/>
         </div>
@@ -186,7 +186,7 @@ export default function ProjectDescripts ({ project }: Props) {
             <p>역겨운 시야 고정 및 알 수 없는 원근감을 통해 플레이어에게 분노조절이란 어떤것인지 가르쳐 줍니다.</p>
             <br />
             <div className="break-all">
-              <p><FontAwesomeIcon icon={faLink} /> <a className="underline hover:text-blue-500" href="https://static.pmh.codes/UnityLearn/build-20201120/index.html">https://static.pmh.codes/UnityLearn/build-20201120/index.html</a></p>
+              <p><FontAwesomeIcon icon={faLink} /> <a className="underline hover:text-blue-500" href="https://this-is-my-life.github.io/unityLearn">https://this-is-my-life.github.io/unityLearn</a></p>
             </div>
           </div>
         </div>
