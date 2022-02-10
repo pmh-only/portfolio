@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "@fontsource/noto-sans-kr";
+@import "@fontsource/roboto-condensed/300.css";
+@import "@fontsource/roboto-condensed/700.css";
+
+html {
+  background-color: #121212;
+  font-family: "Noto Sans KR";
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+.font-roboto {
+  font-family: "Roboto Condensed";
+  line-height: 0.8;
+}
+
+#app > [id] {
+  scroll-snap-align: start;
+}
