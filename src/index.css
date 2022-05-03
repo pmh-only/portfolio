@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @import "@fontsource/noto-sans-kr";
 @import "@fontsource/roboto-condensed/300.css";
 @import "@fontsource/roboto-condensed/700.css";
@@ -15,8 +16,4 @@ html {
 .font-roboto {
   font-family: "Roboto Condensed";
   line-height: 0.8;
-}
-
-#app > [id] {
-  scroll-snap-align: start;
 }

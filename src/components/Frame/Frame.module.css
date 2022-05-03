@@ -1,0 +1,11 @@
+.frame {
+  @apply fixed top-0 z-0 w-screen h-screen text-white bg-black outline outline-red-500;
+}
+
+.label {
+  @apply absolute px-10 py-1 text-3xl z-0 text-white bg-red-500 outline outline-red-500 select-none -top-12 hover:outline-red-600 hover:bg-red-600
+}
+
+.space {
+  @apply h-screen snap-end;
+}
